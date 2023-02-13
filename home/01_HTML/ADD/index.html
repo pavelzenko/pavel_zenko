@@ -26,7 +26,7 @@
             <h2>Работа со строчными и блоковыми цитатами</h2>
             <p>Цитата короткая:<br>
             <em>И всё­таки она вертится!</em>    
-            </p>
+            </p> 
             <p>Цитата занимающая несколько предложений:</p>
             <blockquote>
                 <p>О сколько нам открытий чудных<br>
@@ -38,19 +38,19 @@
             </blockquote> 
             <hr>
             <h2>Семантические и функциональные строчные теги</h2>
-            <p><strong>Тэг &#60STRONG&#62 делает данный фрагмент текста более важным.</strong> <em>Тэг &#60em&#62 менее важным.</em>
-                В то время как теги &#60b&#62 и &#60i&#62 делают текст просто <b>полужирным</b> и <i>курсивом</i> соответственно.
+            <p><strong>Тэг &ltSTRONG&gt делает данный фрагмент текста более важным.</strong> <em>Тэг &ltem&gt менее важным.</em>
+                В то время как теги &ltb&gt и &lti&gt делают текст просто <b>полужирным</b> и <i>курсивом</i> соответственно.
             </p>
             <hr>
             <h2>Теги форматирования машинного языка</h2>
             <p>При выполнении программного кода на языке PERL:</p>
-            <pre><code>
-#!/usr/local/bin/perl
-print "Content‐type: text/html\n\n";
-print "&#60H1&#62Hello World&#60/H1&#62\n";
-            </code></pre>
+            <code>
+                  #!/usr/local/bin/perl<br>
+                  print "Content‐type: text/html\n\n";<br>
+                  print "&#60H1&#62Hello World&#60/H1&#62\n";<br>
+            </code>
             <p>Программа выведет:</p>
-            <p><tt>Hello, World!</tt></p>
+            <samp>Hello, World!</samp>
             <p>Однако в браузере у нас будет отображаться результат выполнения этой программы:</p>
             <h1>Hello, World!</h1>
             <hr>
@@ -69,7 +69,15 @@ print "&#60H1&#62Hello World&#60/H1&#62\n";
             </p>
             <hr>
             <h2>Вот такой текст</h2>
-            <h2><strong><sup> Э </sup> т <sup> о </sup></strong></h2>
+            <h2><sup>Э</sup><sub>т</sub><sup>о</sup><sub>п</sub><sup>р</sup><sub>о</sub><sup>с</sup><sub>т</sub><sup>о</sup><sub>в</sub><sup>е</sup><sub>с</sub><sup>ё</sup><sub>л</sub><sup>ы</sup><sub>й</sub><sup>т</sup><sub>е</sub><sup>к</sup>
+            </h2>
+            <hr>
+            <h2>Акроним и курсив</h2>
+            <p>ТФ: Y(x)=e<sup>-iπx</sup>+log<sub>x</sub>4</p>
+            <hr>
+            <h2>Тег small внтури абзаца</h2>
+            <p align="right"><small>Создано при помощи блокнота&copy</small></p>
+
 
 
     
