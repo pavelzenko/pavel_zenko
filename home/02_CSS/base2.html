@@ -1,0 +1,51 @@
+<!DOCTYPE html> 
+<HTML> 
+        <HEAD> 
+            <META charset="utf-8"> 
+            <TITLE>Пример страницы</TITLE> 
+            <style>
+            .qwe{
+                list-style: lower-roman;
+            }
+            .asd{
+                list-style: upper-roman;
+                width: 350px;
+            }
+            .code{
+                background-color: black;
+                color: green;
+                width: 400px;
+                height: 40px;
+                overflow: auto;
+            }
+            </style>
+        </HEAD> 
+        <BODY> 
+            <ul class="asd">
+                <li>Контейнер с кодом
+                    <ul class="qwe">
+                        <li>Цвет фона черный</li>
+                        <li>Цвет текста: зеленый</li>
+                        <li>Ширина: 400px</li>
+                        <li>Максимальная высота контейнера: 4 строки</li>
+                        <li>Переполнение: автоматическое</li>
+                    </ul>
+                </li>
+                <li>Список
+                    <ul class="qwe">
+                        <li>Ширина:350px</li>
+                        <li>Тип списка: римские цифры</li>
+                        <li>Тип вложенного списка: римский нижний регистр цифры</li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="code">
+                <code>#!/usr/bin/env python
+                    print 'Hello. I am a python program.'
+                    name = raw_input("What is your name?")
+                    print "Hello there, " + name + "!"
+                </code>
+            </div>
+            
+        </BODY> 
+</HTML> 
