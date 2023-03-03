@@ -1,0 +1,81 @@
+<!DOCTYPE html> 
+<HTML> 
+        <HEAD> 
+            <META charset="utf-8"> 
+            <TITLE>Пример страницы</TITLE> 
+            <style>
+                .menu>div{
+                    background-color: rgb(189, 189, 158); 
+                    border: solid rgb(0, 0, 0) 2px; 
+                    border-radius: 5px;
+                    width: 100px;
+                    float: left;
+                    cursor: pointer 
+                }
+                .submenu{ 
+                    overflow: hidden;
+                    height: 0px;
+                    width: 100px;
+                }
+                .submenu>div{
+                    background-color: rgb(132, 194, 194); 
+                    border: solid rgb(0, 0, 0) 1px; 
+                    border-radius: 5px;  
+                    cursor: pointer 
+                }
+                .menu>div:hover .submenu{
+                    display: block; 
+                    position: absolute;
+                    transition: 1s;
+                    width: 100px;
+                    height: 100px;
+                }
+            </style>
+        </HEAD> 
+        <BODY> 
+            <div class="menu">
+                <div>Понедельник
+                    <div class="submenu">
+                        <div>Завтрак</div>
+                        <div>Обед</div>
+                        <div>Ужин</div>
+                    </div>
+                </div>
+                <div> Вторник
+                    <div class="submenu">
+                        <div>Завтрак</div>
+                        <div>Обед</div>
+                        <div>Ужин</div>
+                    </div>
+                </div>
+                <div>Среда
+                    <div class="submenu">
+                        <div>Завтрак</div>
+                        <div>Обед</div>
+                        <div>Ужин</div>
+                    </div>
+                </div>
+                <div>Четверг
+                    <div class="submenu">
+                        <div>Завтрак</div>
+                        <div>Обед</div>
+                        <div>Ужин</div>
+                    </div>
+                </div>
+                <div>Пятница
+                    <div class="submenu">
+                        <div>Завтрак</div>
+                        <div>Обед</div>
+                        <div>Ужин</div>
+                    </div>
+                </div>
+                <div>Суббота
+                    <div class="submenu">
+                        <div>Завтрак</div>
+                        <div>Обед</div>
+                        <div>Ужин</div>
+                    </div>
+                </div>
+            </div>
+        </BODY> 
+</HTML> 
